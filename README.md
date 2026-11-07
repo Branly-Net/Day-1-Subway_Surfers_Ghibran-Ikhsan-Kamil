@@ -30,19 +30,28 @@ Git Workflow:
 Poin-Poin Penting & Pengetahuan Baru
 
 Struktur Prompt Berbasis Komponen:
-    Prompt yang spesifik dan berstruktur (Role, Task, Context, Format) menghasilkan keluaran AI yang jauh lebih presisi dibandingkan prompt        generik.
+
+Prompt yang spesifik dan berstruktur (Role, Task, Context, Format) menghasilkan keluaran AI yang jauh lebih presisi dibandingkan prompt        generik.
 
 Perintah Dasar Git (Essential Commands):
-    git init: Inisialisasi repository baru.
-    git add . / git add -A: Memindahkan semua perubahan ke staging area.   
-    git commit -m 'pesan': Menyimpan perubahan yang ada di staging area ke dalam repository lokal.
-    git remote add <nama> <url>: Menghubungkan repository lokal ke remote repository (GitHub).
-    git push origin main: Mengunggah commit lokal ke repository remote.   
-    git pull origin main: Mengambil dan menggabungkan perubahan dari repository remote ke lokal.  
+
+git init: Inisialisasi repository baru.
+
+git add . / git add -A: Memindahkan semua perubahan ke staging area.   
+
+git commit -m 'pesan': Menyimpan perubahan yang ada di staging area ke dalam repository lokal.
+
+git remote add <nama> <url>: Menghubungkan repository lokal ke remote repository (GitHub).
+
+git push origin main: Mengunggah commit lokal ke repository remote.   
+
+git pull origin main: Mengambil dan menggabungkan perubahan dari repository remote ke lokal.  
 
 Autentikasi Aman Menggunakan SSH Key:
-    Pembuatan kunci menggunakan algoritma Ed25519 (ssh-keygen -t ed25519 -C "email@domain.com"), yang menawarkan keamanan dan performa tinggi      berdasarkan elliptic curve cryptography.
-    Konfigurasi SSH Agent dan pendaftaran Kunci Publik (id_ed25519.pub) pada pengaturan GitHub agar proses push/pull berjalan aman tanpa perlu     login terus-menerus.
+
+Pembuatan kunci menggunakan algoritma Ed25519 (ssh-keygen -t ed25519 -C "email@domain.com"), yang menawarkan keamanan dan performa tinggi      berdasarkan elliptic curve cryptography.
+    
+Konfigurasi SSH Agent dan pendaftaran Kunci Publik (id_ed25519.pub) pada pengaturan GitHub agar proses push/pull berjalan aman tanpa perlu     login terus-menerus.
 
 
 
